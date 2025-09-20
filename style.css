@@ -68,3 +68,31 @@ footer {
     text-align:center;
     padding:10px;
 }
+
+form input[type="text"], 
+form input[type="email"], 
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+form input[type="submit"] {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form input[type="submit"]:hover {
+    background-color: #d35400;
+}
+
