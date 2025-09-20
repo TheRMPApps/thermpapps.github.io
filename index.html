@@ -3,65 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Apps Landing Page</title>
-<style>
-    body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f8f8f8; color:#333; }
-    header { background:#4CAF50; color:white; padding:40px 20px; text-align:center; }
-    header h1 { margin:0; font-size:2em; }
-    header p { margin-top:10px; font-size:1.2em; }
-    .home-section { max-width:800px; margin:20px auto; background:white; padding:20px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1);}
-    .home-section h2 { margin-top:0; }
-    .app-link { display:block; padding:10px 0; font-size:1.1em; color:#4CAF50; text-decoration:underline; cursor:pointer; }
-    .app-section { background:white; margin:20px auto; max-width:800px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.1); padding:20px; }
-    .app-section h2 { margin-top:0; }
-    .btn { display:inline-block; margin:10px 5px 0 0; padding:10px 20px; background:#4CAF50; color:white; text-decoration:none; border-radius:5px; font-weight:bold; }
-    .btn:hover { background:#45a049; }
-    .long-desc { display:none; margin-top:10px; font-size:0.95em; line-height:1.5; }
-    .toggle-btn { cursor:pointer; color:#4CAF50; font-weight:bold; text-decoration:underline; margin-top:10px; display:inline-block; }
-</style>
+<title>My Apps</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
     <h1>Welcome to My Apps</h1>
-    <p>Click on an app below to see details and download links.</p>
+    <p>Click on an app below to see full details and download links</p>
 </header>
 
-<div class="home-section">
-    <h2>Our Apps</h2>
-    <a class="app-link" href="#app1">Financial Calculator India</a>
-    <a class="app-link" href="#app2">Banglar Bhumi Land Calculator</a>
-</div>
+<main>
+    <div class="app-card">
+        <h2>Financial Calculator India</h2>
+        <p>A fast and accurate financial calculator for India.</p>
+        <a href="app1.html" class="btn">See Full Details</a>
+    </div>
 
-<div class="app-section" id="app1">
-    <h2>Financial Calculator India</h2>
-    <p class="short-desc">A simple, fast, and accurate financial calculator for all your needs in India.</p>
-    <span class="toggle-btn" onclick="toggleDesc('desc1')">Read more</span>
-    <p class="long-desc" id="desc1">
-        Financial Calculator India helps you calculate EMI, interest rates, loans, and more with ease. 
-        Designed for individuals, professionals, and students, it provides a user-friendly interface and instant results. 
-        Perfect for budgeting, planning investments, and handling financial tasks on the go.
-    </p>
-    <a href="https://play.google.com/store/apps/details?id=com.financialcalculator.india" class="btn" target="_blank">Download on Google Play</a>
-</div>
-
-<div class="app-section" id="app2">
-    <h2>Banglar Bhumi Land Calculator</h2>
-    <p class="short-desc">Calculate land metrics, areas, and property details easily for Bangladesh.</p>
-    <span class="toggle-btn" onclick="toggleDesc('desc2')">Read more</span>
-    <p class="long-desc" id="desc2">
-        Banglar Bhumi Land Calculator is designed to help users in Bangladesh calculate land dimensions, areas, and property values accurately. 
-        Whether you are a farmer, developer, or student, this app provides precise calculations for various land units and helps streamline property assessments.
-    </p>
-    <a href="https://play.google.com/store/apps/details?id=com.wblandcalculator.banglarbhumi" class="btn" target="_blank">Download on Google Play</a>
-</div>
-
-<script>
-function toggleDesc(id) {
-    const desc = document.getElementById(id);
-    desc.style.display = (desc.style.display === "block") ? "none" : "block";
-}
-</script>
+    <div class="app-card">
+        <h2>Banglar Bhumi Land Calculator</h2>
+        <p>Calculate land metrics and property details easily.</p>
+        <a href="app2.html" class="btn">See Full Details</a>
+    </div>
+</main>
 
 </body>
 </html>
