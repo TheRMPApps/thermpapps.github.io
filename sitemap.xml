@@ -1,51 +1,49 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
-   <!-- created for thermpapps.github.io -->
-
-   <url>
-      <loc>https://thermpapps.github.io/</loc>
-      <lastmod>2025-09-26T20:52:43+00:00</lastmod>
-      <priority>1.00</priority>
-   </url>
-
-   <url>
-      <loc>https://thermpapps.github.io/index.html</loc>
-      <lastmod>2025-09-26T20:52:43+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-
-   <url>
-      <loc>https://thermpapps.github.io/about.html</loc>
-      <lastmod>2025-09-26T20:52:43+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-
-   <url>
-      <loc>https://thermpapps.github.io/privacy.html</loc>
-      <lastmod>2025-09-26T20:52:43+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-
-   <url>
-      <loc>https://thermpapps.github.io/contact.html</loc>
-      <lastmod>2025-09-26T20:52:43+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-
-   <url>
-      <loc>https://thermpapps.github.io/Financial-Calculator-India-app.html</loc>
-      <lastmod>2025-09-26T20:52:43+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-
-   <url>
-      <loc>https://thermpapps.github.io/WB-Land-Calculator.html</loc>
-      <lastmod>2025-09-26T20:52:43+00:00</lastmod>
-      <priority>0.80</priority>
-   </url>
-
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<url>
+<loc>https://thermpapps.github.io/</loc>
+<lastmod>2025-10-03T14:50:23+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://thermpapps.github.io/index.html</loc>
+<lastmod>2025-10-03T14:50:23+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://thermpapps.github.io/about.html</loc>
+<lastmod>2025-10-03T14:50:23+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://thermpapps.github.io/privacy.html</loc>
+<lastmod>2025-10-03T14:50:23+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://thermpapps.github.io/contact.html</loc>
+<lastmod>2025-10-03T14:50:23+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://thermpapps.github.io/Financial-Calculator-India-app.html</loc>
+<lastmod>2025-10-03T14:50:23+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://thermpapps.github.io/WB-Land-Calculator.html</loc>
+<lastmod>2025-10-03T14:50:23+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://thermpapps.github.io/LG-AC-Remote-App.html</loc>
+<lastmod>2025-10-03T14:50:23+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://thermpapps.github.io/Activa-Smart-Fan-Remote.html</loc>
+<lastmod>2025-10-03T14:50:23+00:00</lastmod>
+<priority>0.80</priority>
+</url>
 </urlset>
